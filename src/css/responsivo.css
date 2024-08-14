@@ -1,0 +1,73 @@
+@media screen and (max-width: 1000px) {
+    .titulo {
+        height: auto;
+        padding: 20px;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    #titulo {
+        flex: 100%;
+        font-size: 30px;
+    }
+
+    .navbar {
+        display: none;  
+    }
+
+    .cabecalho {
+        flex-direction: column;
+        padding-top: 150px;
+        height: auto;
+        width: 100%; 
+    }
+
+    .conteudo-cabecalho {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    #titulo-cabecalho {
+        font-size: 60px;
+    }
+
+    #subtitulo-cabecalho {
+        font-size: 20px;
+    }
+
+    .imagem-cabecalho {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #imagem-cabecalho {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    section {
+        width: 100%;
+        margin: 2%;
+        overflow-x: hidden;  
+    }
+
+    .card {
+        width: 95%;
+        margin: 10px 0;
+    }
+
+    .rodape {
+        padding: 60px 20px;
+    }
+
+    #logo {
+        width: 60px;
+    }
+
+    body {
+        overflow-x: hidden; 
+    }
+}
+
